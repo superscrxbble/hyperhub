@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HH | Fortnite </title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: #FF00FF;
+            background-color: #303030;
+            font-family: 'Nunito', sans-serif;
+            text-align: center;
+        }
+        .iframe-container {
+            margin-top: 50px;
+        }
+        iframe {
+            width: 80%;
+            height: 400px;
+            border: 1px solid #FF00FF;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 1px solid #FF00FF;
+            background-color: transparent;
+            color: #FF00FF;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+            margin: 10px;
+        }
+        button:hover {
+            background-color: #FF00FF;
+            color: #303030;
+            transform: scale(1.1);
+        }
+        h1 {
+            text-align: left; /* Align text to the left */
+            margin-left: 20px; /* Add left margin for spacing */
+        }
+    </style>
+</head>
+<body>
+
+<button onclick="window.history.back()" style="position: absolute; top: 20px; right: 20px;">Back</button>
+<button onclick="toggleFullscreen()" style="position: absolute; top: 20px; right: 100px;">Fullscreen</button>
+<h1>Fortnite </h1>
+<div class="iframe-container">
+    <iframe id="vscode-iframe" src="https://backend.mythic.lat/Gxmez/fortnite.html" frameborder="0"></iframe>
+</div>
+
+<script>
+function
