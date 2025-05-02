@@ -1,4 +1,3 @@
 # Hyper Hub V1
 
-School Proxy Lol
-ty @solocentral-proxy for the help.
+School Proxy, and also ty @solocentral-proxy for the help.
